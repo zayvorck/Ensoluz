@@ -229,7 +229,7 @@
 }
 
 /* XS Portrait */
-@media (max-width: 555px) and (max-width: 766px) {
+@media (max-width: 555px)  {
     #logoimg {
         width: 25%
     }
@@ -243,8 +243,3 @@
     }
 }
 
-@media (max-width: 355px) {
-    #logoimg {
-        width: 40%
-    }
-}
