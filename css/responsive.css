@@ -1,15 +1,22 @@
 /* lg */ 
 @media (min-width: 1200px) {
-
+    #logoimg {
+        width: 15%
+    }
 }
 
 /* md */
 @media (min-width: 992px) and (max-width: 1199px) {
-
+    #logoimg {
+        width: 15%
+    }
 }
 
 /* sm */
 @media (min-width: 768px) and (max-width: 991px) {
+    #logoimg {
+        width: 15%
+    }
  	.navbar-right li a {
 		font-size: 12px;
 		padding-right: 10px;
@@ -33,7 +40,10 @@
 
 /* xs */
 @media (max-width: 767px) {
-    .project-details{
+    #logoimg{
+        width:18%
+    }
+    .project-details {
         margin: 15px;
     }
 	body {
@@ -219,14 +229,22 @@
 }
 
 /* XS Portrait */
-@media (max-width: 479px) {
-  
-	.team-members .col-sm-3, 
-	.pricing-table .col-sm-3, 
-	#portfolio .col-sm-3, 
-	.blog-posts .col-sm-4 {
-		width:100%;
-		float: none;
-	}
+@media (max-width: 555px) and (max-width: 766px) {
+    #logoimg {
+        width: 25%
+    }
+
+    .team-members .col-sm-3,
+    .pricing-table .col-sm-3,
+    #portfolio .col-sm-3,
+    .blog-posts .col-sm-4 {
+        width: 100%;
+        float: none;
+    }
 }
 
+@media (max-width: 355px) {
+    #logoimg {
+        width: 40%
+    }
+}
