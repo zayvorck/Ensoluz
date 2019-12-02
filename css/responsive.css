@@ -3,6 +3,10 @@
     #logoimg {
         width: 15%
     }
+    #img2-slider {
+        background-position-x: center;
+        background-size: 100% 700px;
+    }
 }
 
 /* md */
@@ -40,8 +44,12 @@
 
 /* xs */
 @media (max-width: 767px) {
-    #logoimg{
-        width:18%
+    #img2-slider {
+        background-position-x:center;
+        background-size:100% 650px;
+    }
+    #logoimg {
+        width: 135px;
     }
     .project-details {
         margin: 15px;
@@ -231,7 +239,7 @@
 /* XS Portrait */
 @media (max-width: 555px)  {
     #logoimg {
-        width: 25%
+        width: 135px;
     }
 
     .team-members .col-sm-3,
