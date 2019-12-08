@@ -20,16 +20,17 @@ jQuery(function($) {
 		if( $(window).scrollTop()>slideHeight ){
             $('.main-nav').addClass('navbar-fixed-top');
             if ($(window).width() < 500) {
-                $('#services').css("padding-top", "28% ")
+                $('#services').css("padding-top", "28% ");                         
             } else {
-                $('#services').css("padding-top", "17% ")
+                $('#services').css("padding-top", "17% ");
             }
         } else {
-            $('#services').css("padding", "40px 0px")
+            $('#services').css("padding-top", "20px");
 			$('.main-nav').removeClass('navbar-fixed-top');
 		}
 	});
 
+  
    
 
 	// Navigation Scroll
