@@ -18,12 +18,20 @@ jQuery(function($) {
 	//Scroll Menu
 	$(window).on('scroll', function(){
 		if( $(window).scrollTop()>slideHeight ){
-			$('.main-nav').addClass('navbar-fixed-top');
-		} else {
+            $('.main-nav').addClass('navbar-fixed-top');
+            if ($(window).width() < 500) {
+                $('#services').css("padding-top", "25% ")
+            } else {
+                $('#services').css("padding-top", "17% ")
+            }
+        } else {
+            $('#services').css("padding", "40px 0px")
 			$('.main-nav').removeClass('navbar-fixed-top');
 		}
 	});
-	
+
+   
+
 	// Navigation Scroll
 	$(window).scroll(function(event) {
 		Scroll();
@@ -162,7 +170,7 @@ jQuery(function($) {
 			infowindow.open(map,marker);
 		});
 	}
-	google.maps.event.addDomListener(window, 'load', initialize_map);
+	//google.maps.event.addDomListener(window, 'load', initialize_map);
 	
 });
 

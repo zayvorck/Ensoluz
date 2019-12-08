@@ -83,7 +83,7 @@
 	.navbar-brand {
 		padding: 0 15px 15px;
 	}
-	.navbar-toggle {
+	.navbar-toggle  {
 	  border:1px solid #fff;
 	}
 
@@ -98,7 +98,7 @@
 
 	/*services*/
 	section {
-		padding: 45px 0;
+		padding: 40px 0;
 	}
 	.heading {
 		font-size: 14px;
@@ -250,4 +250,6 @@
         float: none;
     }
 }
+
+
 
