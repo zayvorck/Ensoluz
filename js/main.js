@@ -20,7 +20,7 @@ jQuery(function($) {
 		if( $(window).scrollTop()>slideHeight ){
             $('.main-nav').addClass('navbar-fixed-top');
             if ($(window).width() < 500) {
-                $('#services').css("padding-top", "25% ")
+                $('#services').css("padding-top", "28% ")
             } else {
                 $('#services').css("padding-top", "17% ")
             }
