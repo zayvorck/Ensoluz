@@ -34,7 +34,7 @@ a:hover, a:focus {
 .left-control:hover, 
 .right-control:hover, 
 .folio-overview a:hover {
-  background-color:#028fcc;
+  background-color:rgba(245,181,25,1);
 }
 
 .twitter-left-control:hover, 
@@ -46,7 +46,7 @@ a:hover, a:focus {
 .caption .btn-start:hover, 
 .left-control:hover, 
 .right-control:hover {
-	border-color: #028fcc;
+	border-color: rgba(245,181,25,1);
 }
 
 .twitter-icon .fa-twitter:after {
